@@ -52,18 +52,18 @@ http://localhost:8000<br>
 Now open the same URL in multiple tabs or devices to test real-time chat.<br>
 
 ## 📌 How it works
-The backend (nodeServer/index.js) uses Socket.io to manage real-time connections.<br>
-Each client connects to the server and emits messages using client.js.<br>
-Messages are broadcast to all connected clients.<br<>
-A sound (ting.mp3) is played when a new message is received.<br>
+1) The backend (nodeServer/index.js) uses Socket.io to manage real-time connections.<br>
+2) Each client connects to the server and emits messages using client.js.<br>
+3) Messages are broadcast to all connected clients.<br>
+4) A sound (ting.mp3) is played when a new message is received.<br>
 
 ## 🚀 Future Enhancements
-User authentication<br>
-Support for private messages or rooms<br>
-Message timestamps<br>
-Message history persistence with MongoDB<br>
-Typing indicators<br>
-Better UI/UX<br>
+1) User authentication<br>
+2) Support for private messages or rooms<br>
+3) Message timestamps<br>
+4) Message history persistence with MongoDB<br>
+5) Typing indicators<br>
+6) Better UI/UX<br>
 
 ## 🙋‍♂️ Author
 Abhishek Savita
