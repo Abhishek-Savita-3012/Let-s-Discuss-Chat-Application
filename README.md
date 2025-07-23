@@ -16,7 +16,7 @@ A simple and elegant real-time chat application built using Node.js, Socket.io, 
 ### Media: Custom notification sound and chat icon
 
 ## 📁 Project Structure
-
+<pre>
 Let's-Discuss-Chat-Application/
 ├── css/
 │   └── style.css               # Styling for the chat UI
@@ -31,39 +31,39 @@ Let's-Discuss-Chat-Application/
 ├── package-lock.json          # Lock file for npm packages
 ├── ting.mp3                   # Notification sound for messages
 ├── web_socket.txt             # Info/reference about WebSocket (optional)
-
+</pre>
 
 ## 🛠️ Setup Instructions
-1) Clone the repository :
-git clone https://github.com/Abhishek-Savita-3012/Let-s-Discuss-Chat-Application.git
-cd Let-s-Discuss-Chat-Application
+1) Clone the repository :<br>
+git clone https://github.com/Abhishek-Savita-3012/Let-s-Discuss-Chat-Application.git<br>
+cd Let-s-Discuss-Chat-Application<br>
 
-2) Install dependencies :
-cd nodeServer
-npm install
+2) Install dependencies :<br>
+cd nodeServer<br>
+npm install<br>
 
-3) Start the server :
-node index.js
+3) Start the server :<br>
+node index.js<br>
 
-4) Open the application :
+4) Open the application :<br>
    
-Open your browser and go to:
-http://localhost:8000
-Now open the same URL in multiple tabs or devices to test real-time chat.
+Open your browser and go to:<br>
+http://localhost:8000<br>
+Now open the same URL in multiple tabs or devices to test real-time chat.<br>
 
 ## 📌 How it works
-The backend (nodeServer/index.js) uses Socket.io to manage real-time connections.
-Each client connects to the server and emits messages using client.js.
-Messages are broadcast to all connected clients.
-A sound (ting.mp3) is played when a new message is received.
+The backend (nodeServer/index.js) uses Socket.io to manage real-time connections.<br>
+Each client connects to the server and emits messages using client.js.<br>
+Messages are broadcast to all connected clients.<br<>
+A sound (ting.mp3) is played when a new message is received.<br>
 
 ## 🚀 Future Enhancements
-User authentication
-Support for private messages or rooms
-Message timestamps
-Message history persistence with MongoDB
-Typing indicators
-Better UI/UX
+User authentication<br>
+Support for private messages or rooms<br>
+Message timestamps<br>
+Message history persistence with MongoDB<br>
+Typing indicators<br>
+Better UI/UX<br>
 
 ## 🙋‍♂️ Author
 Abhishek Savita
