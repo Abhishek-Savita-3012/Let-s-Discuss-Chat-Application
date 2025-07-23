@@ -11,9 +11,9 @@ A simple and elegant real-time chat application built using Node.js, Socket.io, 
 6) 💡 Built using only HTML, CSS, and JavaScript
 
 ## 🧰 Tech Stack
-### Frontend: HTML, CSS, JavaScript
-### Backend: Node.js, Socket.io
-### Media: Custom notification sound and chat icon
+**Frontend:** HTML, CSS, JavaScript
+**Backend:** Node.js, Socket.io
+**Media:** Custom notification sound and chat icon
 
 ## 📁 Project Structure
 <pre>
